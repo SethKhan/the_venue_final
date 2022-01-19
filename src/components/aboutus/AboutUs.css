@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* import font family */
+
+.wingki-background{ background-color: rgb(0, 0, 0);} 
+
+/* first-half container */
+
+.first-half{
+    background-color: rgb(229, 231, 235);
+    width: 100%;
+}
+
+.second-half{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+
+/* Meet the team */
+#meet{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 4%;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 1%;
+    margin-left: 9%;
+  }
+
+/* Three columns side by side */
+.column2 {
+  margin-top: 3%;
+    float: left;
+    width: 20%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+  }
+
+/* Three columns side by side */
+.column3 {
+    margin-top: 3%;
+    float: left;
+    width: 20%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+  }
+
+/* Three columns side by side */
+.column4 {
+    float: left;
+    margin-top: 3%;
+    width: 20%;
+    margin-bottom: 10%;
+    margin-left: 9%;
+  }
+
+
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .wk-container {
+    padding: 4px;
+    background-color: white;
+  }
+  
+  /* Clear floats */
+  .wk-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+    border: 1px solid #888;
+  }
+
+  .pic{
+    filter: grayscale(5%);
+    width: 100%;
+  }
+
+  .name{
+      text-align: center;
+  }
+
+
+
+  

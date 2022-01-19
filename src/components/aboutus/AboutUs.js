@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip } from '@mui/material';
+// import { Tooltip } from '@mui/material';
 import './AboutUs.css';
 
 export default function AboutUs ()
@@ -22,11 +22,11 @@ export default function AboutUs ()
               <h2 className = "name">Wing Ki Au</h2>
               <p className="title">Team Leader</p>
 
-              <Tooltip title="Originally from hong Kong,
+              {/* <Tooltip title="Originally from hong Kong,
                 Computer Science and Information Security Major.
                 Study interest: Web Development, Ios Development, Computer Networking." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -41,9 +41,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Seth Khan</h2>
               <p className="title">Team Leader</p>
-              <Tooltip title="Soldier at U.S. Army Reserve, CUNY John Jay College - Computer Science, class of 2022 and huge soccer fan." arrow>
+              {/* <Tooltip title="Soldier at U.S. Army Reserve, CUNY John Jay College - Computer Science, class of 2022 and huge soccer fan." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -57,9 +57,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Thin Thazin</h2>
               <p className="title">Team Leader</p>
-              <Tooltip title="My name is Thin Thazin and I love cooking and playing video games. My goal is to become a software engineer and my favorite programming language is Python." arrow>
+              {/* <Tooltip title="My name is Thin Thazin and I love cooking and playing video games. My goal is to become a software engineer and my favorite programming language is Python." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -82,9 +82,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Samy Gadi</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="Samy Gadi Senior student Majoring in computer science and information security, minoring in mathematics. Career goal is to@start off as a cyber security analyst and eventually become a chief security officer." arrow>
+              {/* <Tooltip title="Samy Gadi Senior student Majoring in computer science and information security, minoring in mathematics. Career goal is to@start off as a cyber security analyst and eventually become a chief security officer." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -97,9 +97,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Rey Flores</h2>
               <p className="title">Team Member</p>
-              <Tooltip title=" John Jay College - Computer Science, class of 2022 and training at CUNY TTP cohort. " arrow>
+              {/* <Tooltip title=" John Jay College - Computer Science, class of 2022 and training at CUNY TTP cohort. " arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -113,9 +113,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Justin Adames</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="Junior at John Jay College studying Computer Science and Information Security. Selected for CUNY TTP cohort and I love tostones with ketchup and fried cheese. " arrow>
+              {/* <Tooltip title="Junior at John Jay College studying Computer Science and Information Security. Selected for CUNY TTP cohort and I love tostones with ketchup and fried cheese. " arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -128,9 +128,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Stephania Hoyos</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="I am a proactive Computer Science student with a passion for programming, networking. Currently attending at John Jay College where I am working toward my degree and looking for ways to put my new knowledge and skills into practice in a work environment. I am independently motivated, yet I appreciate team effort and collaborate productively within groups. I love trying new things and learning new technologies." arrow>
+              {/* <Tooltip title="I am a proactive Computer Science student with a passion for programming, networking. Currently attending at John Jay College where I am working toward my degree and looking for ways to put my new knowledge and skills into practice in a work environment. I am independently motivated, yet I appreciate team effort and collaborate productively within groups. I love trying new things and learning new technologies." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -151,9 +151,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Jennifer Guadarrama</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="My name is Jennifer Guadarrama. I am majoring in Computer Science and Cybersecurity. I am in the process of learning new languages such as python, html, css, and javascript." arrow>
+              {/* <Tooltip title="My name is Jennifer Guadarrama. I am majoring in Computer Science and Cybersecurity. I am in the process of learning new languages such as python, html, css, and javascript." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -166,9 +166,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Vince Pamolarco</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="I am an aspiring Software Developer with passion in Cyber security. I’m currently a member of NYC Tech Talent Pipeline ’22 Cohort to learn Full Stack Development. I love sushi." arrow>
+              {/* <Tooltip title="I am an aspiring Software Developer with passion in Cyber security. I’m currently a member of NYC Tech Talent Pipeline ’22 Cohort to learn Full Stack Development. I love sushi." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -182,9 +182,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Ilan Rodriguez</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="I am Ilan Rodriguez, I love coding and am familiar with a few languages. I play games on PC as well." arrow>
+              {/* <Tooltip title="I am Ilan Rodriguez, I love coding and am familiar with a few languages. I play games on PC as well." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -197,9 +197,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Israel Klein</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="Hi, my name is Israel Klein. I'm a Junior at John Jay College, I'm majoring in Computer Science & Info Security and minoring in law as well." arrow>
+              {/* <Tooltip title="Hi, my name is Israel Klein. I'm a Junior at John Jay College, I'm majoring in Computer Science & Info Security and minoring in law as well." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -220,9 +220,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Anwar Jahid</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="I am a Brooklyn based Computer Science student.  I love to code, go biking, play video games and spend time with my siblings." arrow>
+              {/* <Tooltip title="I am a Brooklyn based Computer Science student.  I love to code, go biking, play video games and spend time with my siblings." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -235,9 +235,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Sheikh I Ahmed</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="My Name is Sheikh I Ahmed; I am a junior student at john jay college of criminal justice. I finished my associate degree from Queensborough community college. I am expecting to graduate in the 2023 fall." arrow>
+              {/* <Tooltip title="My Name is Sheikh I Ahmed; I am a junior student at john jay college of criminal justice. I finished my associate degree from Queensborough community college. I am expecting to graduate in the 2023 fall." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
@@ -251,9 +251,9 @@ export default function AboutUs ()
             <div className="wk-container">
               <h2 className = "name">Aung Min Tun</h2>
               <p className="title">Team Member</p>
-              <Tooltip title="My name is Aung Min Tun, I am a student in John Jay majoring in computer science. I am motivated to learn as much as I can about web development and programming languages such as HTML and CSS. I also like to do photography as a hobby in my free time." arrow>
+              {/* <Tooltip title="My name is Aung Min Tun, I am a student in John Jay majoring in computer science. I am motivated to learn as much as I can about web development and programming languages such as HTML and CSS. I also like to do photography as a hobby in my free time." arrow>
                 <button className='button'>More About Me</button>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </div>
         </div>
